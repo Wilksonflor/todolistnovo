@@ -2,4 +2,50 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Helvetica;
 }
+body{
+    background-image: url(/img/a-paisagem-bonita-do-sol-da-praia-com-um-barco_1112-212.avif);
+    background-position: right;
+    background-size: cover;
+
+}
+
+button{
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: #102f5e;
+}
+
+button:hover > i{
+    color: #fff;
+}
+
+button i{
+    color: #102f5e;
+    font-weight: bold;
+    pointer-events: none; 
+    /* Quando o usuário clicar no icone ele vai clicar no botão */
+}
+
+input, 
+select{
+    padding: 0.25rem 0.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+/* to do header */
