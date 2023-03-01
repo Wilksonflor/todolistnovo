@@ -30,7 +30,7 @@
             </div>
         </form>
 
-        <form id="edit-form" class="">
+        <form id="edit-form" class="hide">
             <p>Edite sua atividade:</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -41,7 +41,7 @@
             <button id="cancelBtn">Cancelar</button>
         </form>
 
-        <div class="toolbar">
+        <div id="toolbar">
             <div class="search">
                 <h4>Pesquisar:</h4>
                 <form>
@@ -50,19 +50,22 @@
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
                 </form>
+            </div>
+
                 <div id="filter">
                     <h4>Filtar</h4>
                     <select id="filtro-selecionar">
                         <option value="all">Todos</option>
                         <option value="all">Feitos</option>
                         <option value="all">Pendentes</option>
+                        <option value="all">Urgentes</option>
                     </select>
                 </div>
-            </div>
+            
         </div>
 
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>A fazer</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
